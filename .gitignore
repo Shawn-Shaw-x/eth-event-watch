@@ -1,0 +1,52 @@
+# Go 编译生成的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# go build 输出
+/build/
+/bin/
+/dist/
+
+# Go workspace 文件
+go.work
+go.work.sum
+
+# Go vendor 目录（如果你使用 vendor 模式）
+/vendor/
+
+# Go modules 缓存
+/go.sum
+
+# IDE / 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 覆盖测试输出
+coverage.*
+*.coverprofile
+*.cov
+*.lcov
+*.testresult
+
+# 环境文件
+.env
+.env.*
+
+# 临时文件
+*.tmp
+*.bak
+*.old
