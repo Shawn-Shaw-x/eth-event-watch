@@ -42,9 +42,6 @@ coverage.*
 *.lcov
 *.testresult
 
-# 环境文件
-.env
-.env.*
 
 # 临时文件
 *.tmp
